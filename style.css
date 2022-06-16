@@ -1,0 +1,136 @@
+:root{
+  --center-color:white;
+}
+
+body{
+  background-color: hsl(225, 100%, 94%);
+  text-align: center;
+  overflow-y: scroll;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+p{
+  font-weight:lighter;
+  font-size: 16px;
+  font-style: normal;
+  padding: 0 4rem 0 4rem;
+  color: hsl(224, 23%, 55%);
+}
+h2{
+  padding-top: 1rem;
+}
+
+main{
+  max-height: 450px;
+}
+
+.center-div{
+  position: relative;
+  top:-330px;
+  /* bottom:150px; */
+  background-color: var(--center-color);
+  width: 80%;
+  height: 100%;
+  max-width: 28rem;
+  margin: auto;
+  margin-bottom: 10px;
+  max-height: 1600px;
+  border-radius: 15px;
+  height: 630px;
+
+}
+
+
+.center-svg{
+  border-radius:15px 15px 0 0;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+
+.plan-div{
+  border-radius: 10px;
+  background-color: hsl(225, 100%, 98%);
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+
+.music-svg{
+margin-top: 1rem;
+margin-bottom: 1rem;
+margin-left: 0;
+}
+
+.plan-title{
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+  bottom:40px;
+  left:15px;
+}
+
+.plan-cost{
+  display: inline-block;
+  position: relative;
+  bottom:15px;
+  right:77px;
+  color: hsl(224, 23%, 55%);
+}
+
+.change-link{
+  position: relative;
+  bottom: 25px;
+  color: hsl(245, 75%, 52%);
+}
+
+.change-link:hover{
+  text-decoration: none;
+  color: hsl(245, 75%, 52%);
+  opacity: 80%;
+
+}
+
+.payment-div{
+  border-radius: 10px;
+  background-color: hsl(245, 75%, 52%);
+  margin: 2rem 3rem;
+  height: 3rem;
+
+}
+
+.payment-link{
+  color: white;
+  position: relative;
+  top:0.75rem;
+}
+
+.payment-div:hover{
+  cursor: pointer;
+  opacity: 80%;
+
+}
+
+.cancel-div{
+  position: relative;
+  top:-10px;
+
+
+}
+
+.cancel-link{
+  opacity: 70%
+}
+
+.cancel-link:hover{
+  opacity: 1;
+  cursor: pointer;
+  font-style: bold;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(228, 45%, 44%);
+}
